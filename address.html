@@ -10,7 +10,7 @@
   </head>
   <body>
     <div class="container">
-      <h1>Address Book</h1>
+      <h1 class="addresssDropdown">Address Book</h1>
       <form id="contact">
           <div class="form-group">
             <label for="name">Your Name</label>
@@ -30,13 +30,12 @@
           </div>
           <button type="submit" class="btn btn-default">Submit Contact</button>
 
-          <select class="form-control" id="ContactStored">
-            <option>Name: <span class="name"></span></option>
-            <option value="">Address:</option>
-            <option value="">Email:</option>
-            <option value="">Phone:</option>
-          </select>
-          <p>test <span class="name"> test</span> </p>
+          <ul>
+            <li>Name: <span class="nameSaved"></span></li>
+            <li>Address: <span class="addressSaved"></span></li>
+            <li>Email: <span class="emailSaved"></span></li>
+            <li>Phone: <span class="phoneSaved"></span></li>
+          </ul>
         </div>
       </form>
     </div>
